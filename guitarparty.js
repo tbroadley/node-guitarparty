@@ -31,7 +31,7 @@ Guitarparty.prototype.request = function(endpoint, callback) {
     res.on('end', () => {
       const data = JSON.parse(body);
 
-      cacheEntry = {
+      this.cache[endpoint] = {
         timestamp: Date.now(),
         data,
       };
