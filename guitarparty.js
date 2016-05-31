@@ -25,7 +25,7 @@ Guitarparty.prototype.request = function(endpoint, callback) {
     })
   });
 
-  req.on('error', (e) => {
+  req.on('error', e => {
     callback(e, null);
   });
 
