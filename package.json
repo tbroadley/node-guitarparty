@@ -1,0 +1,11 @@
+{
+  "name": "node-guitarparty",
+  "version": "0.1.0",
+  "description": "A node.js client for the Guitarparty API.",
+  "main": "node-guitarparty.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Broadley",
+  "license": "MIT"
+}
